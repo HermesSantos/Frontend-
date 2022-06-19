@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Contador from './components/MeuContador'
+import Contador from './components/InitialPage'
 export default {
   components:{
     contador: Contador

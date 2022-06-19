@@ -1,8 +1,5 @@
 <template>
     <div class="Contador">
-        <!-- <div>
-            <h1>Binary to Decimal Converter</h1>
-        </div> -->
         <div class="container">
             <div>
                 <conversor/>
@@ -12,10 +9,10 @@
 </template>
 
 <script>
-import OutroComponente from '@/components/OutroComponente'
+import BintodecComponent from '@/components/BintodecComponent'
     export default {
         components: {
-            conversor: OutroComponente
+            conversor: BintodecComponent
         }
     }
 </script>

@@ -8,7 +8,7 @@
 				<input id="str" type="text">	
 			</div>
 			<div>
-				<button id="btn" type="submit" @click.prevent="toArray"> =Converter</button>
+				<button id="btn" type="submit" @click.prevent="toArray"> =Convert it</button>
 			</div>
 			<div>
 				<textarea v-model="dec" id="saida" rows="4" readonly cols="40"></textarea>
@@ -36,15 +36,11 @@ export default {
 
 					this.arr = myArr;
 					for(let n = 0; n < myArr.length; n++){
-						if(this.arr[n]!=0 || this.arr[n]!=1){
-							this.dec = "Invalid Input"
-						}else{
 							let decimal = 0;
 							for(let i = 0; i < this.arr.length; i++){
 									decimal = decimal + (this.arr[i]*(2**(this.arr.length-i-1)))
 							}					
 								this.dec = decimal
-						}
 					}
 
 		}

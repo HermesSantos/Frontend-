@@ -1,4 +1,5 @@
-# app
+---Description---
+Binary to Decimal conversor made in Vue for study purposes.
 
 ## Project setup
 ```
